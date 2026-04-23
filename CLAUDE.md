@@ -6,6 +6,8 @@ Rules for AI agents working in this repository.
 
 ## Files
 
+- **All generated files must be Markdown (`.md`)** — no `.txt`, `.json`, `.yaml`, or other formats unless the content is inherently non-prose (e.g., a config file required by a tool)
+- **No files may be created in the root directory** — every generated file must live inside a subfolder
 - Prefix all dated notes with `YYYY-MM-DD-`: `2026-04-13-meeting-notes.md`
 - Use hyphens, never underscores
 - Never put version numbers in filenames — use git instead
@@ -14,6 +16,7 @@ Rules for AI agents working in this repository.
 ## Folders
 
 - Hyphens only, lowercase, no spaces
+- Place new notes in the most relevant existing folder; create a new folder only when no existing folder fits
 
 ## Changelog
 
